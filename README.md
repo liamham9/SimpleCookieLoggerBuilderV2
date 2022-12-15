@@ -14,3 +14,5 @@ help & downloads
 2. open a terminal as administrator
 3. cd C:\path\to\directory
 4. gui.py
+
+![image](https://user-images.githubusercontent.com/116911092/207981392-a39f64bb-1cec-46ee-b4b0-55bb8fa95e50.png)
