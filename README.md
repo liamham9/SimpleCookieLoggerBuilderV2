@@ -16,3 +16,6 @@ help & downloads
 4. gui.py
 
 ![image](https://user-images.githubusercontent.com/116911092/207981392-a39f64bb-1cec-46ee-b4b0-55bb8fa95e50.png)
+
+
+[note] for those intrested the reason it wont work on python versions past 3.9.8 is due to browser-cookie3 (a required module) breaking on versions past 3.9.8
